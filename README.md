@@ -3,6 +3,16 @@ Tagged NPM Seed
 
 A blueprint for creating NPM packages.
 
+## How to create an NPM Module
+
+1. Fork this repo and rename it as necessary.
+2. Update `package.json` with details for your new package.
+3. Place code in `./lib`.
+4. Place tests in `./test`.
+5. Replace this `./README.md` file with your own that describes how to use your module.
+6. Commit everything to your fork.
+7. Use `npm publish` to publish your package.
+
 ## Files and Directory Structure
 
 The following describes the various files in this repo and the directory structure.
@@ -64,7 +74,6 @@ Deletes all auto-generated files, including `./docs` and `./test/coverage.html`
 
 ### Mocha, Sinon, Chai, Blanket
 
-The ultimate TDD environment for node. Place your specs in `./test/lib`, and run `grunt test`
-to run them.
+The ultimate TDD environment for node. Place your specs in `./test/lib`, and run `grunt test`.
 
 See `./test/lib/index_test.js` for examples.
