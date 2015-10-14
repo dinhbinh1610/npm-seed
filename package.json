@@ -1,26 +1,26 @@
 {
-  "name": "tagged-npm-seed",
+  "name": "ifwe-npm-seed",
   "version": "0.0.0",
-  "description": "Tagged's seed project for NPM packages",
+  "description": "If(we)'s seed project for NPM packages",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/tagged/npm-seed.git"
+    "url": "http://github.com/ifwe/npm-seed.git"
   },
   "keywords": [
-    "api",
-    "tagged",
-    "client"
+    "ifwe",
+    "npm",
+    "seed"
   ],
-  "author": "Web Team Awesome",
+  "author": "Hector Virgen <djvirgen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tagged/npm-seed/issues"
+    "url": "https://github.com/ifwe/npm-seed/issues"
   },
-  "homepage": "https://github.com/tagged/npm-seed",
+  "homepage": "https://github.com/ifwe/npm-seed",
   "devDependencies": {
     "blanket": "^1.1.6",
     "chai": "^1.9.1",
